@@ -1,0 +1,13 @@
+{
+"name" : "changePageColor"
+,"description" : "改变页面的颜色"
+,"version" : "1.0"
+,"browser_action" : {
+    "default_title" : "tips"
+    ,"default_popup" : "popup.html"
+    }
+,"manifest_version" : 2
+,"permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}
